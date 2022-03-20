@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-lg-8 m-auto">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead class="thead-light">
+                        <tr>
+                            <th scope="col">row </th>
+                            <th scope="col"> title </th>
+                            <th scope="col" [width]="100">action </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let row of data;trackBy:identify;let i=index">
+                            <td>{{i+1}}</td>
+                            <td>{{row.title}}</td>
+                            <td class="d-flex flex-row">
+                                <i class="bi bi-trash-fill text-danger del" (click)="deleteItem(row.id)"></i>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
