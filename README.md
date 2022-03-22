@@ -1,3 +1,11 @@
+# Demo
+
+https://hakimesheikhalishahi.github.io/angular-typescript_custom_decorator/
+
+# Description
+
+Custom decorator in Angular TS . Confirmable modal for all actions that needs confirm to do.
+
 # ConfirmableDecorator
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
