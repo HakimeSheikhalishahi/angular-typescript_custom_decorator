@@ -1,9 +1,9 @@
-# Demo 🌻
+# Demo
 
 https://hakimesheikhalishahi.github.io/angular-typescript_custom_decorator/
 
 ![Alt text](https://user-images.githubusercontent.com/51107856/159531232-97d98b13-903f-492a-85f2-10f544142eed.png?raw=true "Title")
-# Description 🌿
+# Description
 
 Custom decorator in Angular TS . Confirmable modal for all actions that needs confirm to do.
 
